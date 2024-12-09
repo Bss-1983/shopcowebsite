@@ -1,5 +1,5 @@
 import React from "react";
-import { TfiSearch, TfiHeart } from "react-icons/tfi";
+import { TfiSearch} from "react-icons/tfi";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { RxCross1 } from "react-icons/rx";
 import { BsCart } from "react-icons/bs";
