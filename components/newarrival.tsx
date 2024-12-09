@@ -15,7 +15,7 @@ const products = [
     title: "SKINNY FIT JEANS",
     price: "$240",
     oldprice: "$300",
-    image: "/Skinyfit.png",
+    image: "/Skinyfit1.png",
     rating: 4.5,
     reviews: "65",
   },

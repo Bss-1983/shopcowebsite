@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { IoIosArrowForward } from "react-icons/io";
 import Footer from "../../../components/footer";
+import Topselling from "../../../components/topselling";
 
 export default function CategoryPage() {
   return (
@@ -21,6 +22,8 @@ export default function CategoryPage() {
           </Link>
         </div>
       </div>
+
+      <Topselling/>
 
       <Footer /> {/* Footer is at the bottom */}
     </div>
