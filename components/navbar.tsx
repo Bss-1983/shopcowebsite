@@ -17,7 +17,7 @@ export default function Navbar() {
             {/* Top Banner */}
             <div className="bg-black text-white py-2 text-sm flex justify-between items-center w-full px-4 sm:px-8 font-satoshi">
                 <div className="text-center flex-1">
-                    Sign up and get 20% off your first order.
+                    Sign up and get 50% off your first order.
                     <a href="#" className="underline hover:text-rose-400 font-medium text-base">
                         <span className="ml-2">Sign Up Now</span>
                     </a>
