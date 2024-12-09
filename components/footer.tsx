@@ -1,7 +1,15 @@
+<<<<<<< HEAD
+=======
+import Link from 'next/link';
+>>>>>>> dc014a46db4e9f1a60cf5ca78dbc7bbdf5c98a0f
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaPaypal, FaCcVisa, FaCcMastercard } from 'react-icons/fa'; // Import the icons
 import { GrTwitter } from "react-icons/gr";
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dc014a46db4e9f1a60cf5ca78dbc7bbdf5c98a0f
 export default function Footer() {
   return (
     <div>
@@ -13,6 +21,7 @@ export default function Footer() {
           </span>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 w-full sm:w-auto">
             {/* Input fields stacked on smaller screens */}
+<<<<<<< HEAD
             <input 
               type="text" 
               placeholder="Subscribe to Newsletter" 
@@ -22,6 +31,17 @@ export default function Footer() {
               type="email"  
               placeholder="Enter your email address" 
               className="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 w-full sm:w-auto"
+=======
+
+            <button className="underline inline-flex text-gray-800 font-satoshi bg-white border-0 py-2 px-6 sm:py-3 sm:px-8 md:py-4 md:px-10 focus:outline-none text-sm sm:text-base rounded-md">
+              < Link href="Subscribe to Newsletter"> Subscribe to Newsletter </Link>
+            </button>
+
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              className=" text-gray-800 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 w-full sm:w-auto"
+>>>>>>> dc014a46db4e9f1a60cf5ca78dbc7bbdf5c98a0f
             />
           </div>
         </div>
